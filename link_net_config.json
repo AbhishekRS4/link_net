@@ -1,12 +1,12 @@
 {
     "data" : {
-              "images_dir_train" : "/opt/data/abhishek/cityscapes/resized_images/train/",
-              "labels_dir_train" : "/opt/data/abhishek/cityscapes/resized_labels/train/",
-              "images_dir_valid" : "/opt/data/abhishek/cityscapes/resized_images/valid/",
-              "labels_dir_valid" : "/opt/data/abhishek/cityscapes/resized_labels/valid/"
+              "images_dir_train" : "/home/abhishek/cityscapes/resized_images/train/",
+              "labels_dir_train" : "/home/abhishek/cityscapes/resized_labels/train/",
+              "images_dir_valid" : "/home/abhishek/cityscapes/resized_images/valid/",
+              "labels_dir_valid" : "/home/abhishek/cityscapes/resized_labels/valid/"
              }, 
     "model" : { 
-               "pretrained_weights" : "/data/data/abhishek_data/pretrained_models/resnet/resnet34_imagenet_1000_no_top.h5",
+               "pretrained_weights" : "/home/abhishek/pretrained_models/resnet/resnet34_imagenet_1000_no_top.h5",
                "data_format" : "channels_first",
                "num_classes" : 15
               },
@@ -23,7 +23,7 @@
                      "model_metrics" : "metrics.npy"
                    },
     "inference" : {
-                   "data_dir" : "/opt/data/abhishek/cityscapes/resized_images/",
+                   "data_dir" : "/home/abhishek/cityscapes/resized_images/",
                    "which_checkpoint_model" : 100,
                    "which_set" : "valid"
                   }
