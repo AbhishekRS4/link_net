@@ -9,11 +9,14 @@
 * Use features from the corresponding encoder stage in decoder [skip connection] by performing element-wise summation
 
 ## Intructions to run
-> To run training use - **python3 link\_net\_train.py -h**
->
-> To run inference use - **python3 link\_net\_infer.py -h**
->
-> This lists all possible commandline arguments
+* To list training options
+```
+python3 link_net_train.py --help
+```
+* To list inference options
+```
+python3 link_net_infer.py --help
+```
 
 ## Visualization of results
 * [LinkNet](https://youtu.be/qT2-NQb-sec)
@@ -23,9 +26,3 @@
 * [LinkNet](https://arxiv.org/pdf/1707.03718.pdf)
 * [LinkNet Project](https://codeac29.github.io/projects/linknet/)
 * [Cityscapes Dataset](https://www.cityscapes-dataset.com/)
-
-## To do
-- [x] LinkNet
-- [x] Visualize results
-- [ ] Compute metrics
-
